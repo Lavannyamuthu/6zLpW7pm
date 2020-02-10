@@ -7,10 +7,10 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="{{ route('home') }}">Current Tickets</a>
+        <a class="nav-link" href="{{ route('shome') }}">Current Tickets</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Create a Ticket</a>
+        <a class="nav-link" href="{{ route('serviceRequest.create')}}">Create a Ticket</a>
       </li>
     </ul>
   </div>
